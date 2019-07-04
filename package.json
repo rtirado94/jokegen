@@ -36,6 +36,5 @@
     "url": "https://github.com/rtirado94/jokegen/issues"
   },
   "homepage": "https://github.com/rtirado94/jokegen#readme",
-  "description": "",
-  "proxy": "http://localhost:5000/"
+  "description": ""
 }
