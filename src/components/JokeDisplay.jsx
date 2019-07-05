@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class JokeDisplay extends Component {
   constructor(props) {
     super(props);
-    this.END_POINT = "http://api.icndb.com/jokes/random/";
+    this.END_POINT = "https://api.icndb.com/jokes/random/";
     this.state = {
       loading: true,
       posts: null
