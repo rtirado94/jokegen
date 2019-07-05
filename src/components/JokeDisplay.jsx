@@ -4,7 +4,7 @@ class JokeDisplay extends Component {
   constructor(props) {
     super(props);
     this.END_POINT =
-      "http://api.icndb.com/jokes/random/1http://api.icndb.com/jokes/random/";
+      "https://api.icndb.com/jokes/random/1http://api.icndb.com/jokes/random/";
     this.state = {
       loading: true,
       posts: null
