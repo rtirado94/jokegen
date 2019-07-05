@@ -1,9 +1,12 @@
 import React, { Component } from "react";
 
+var proxyUrl = "https://cors-anywhere.herokuapp.com/";
+var targetUrl = "https://api.icndb.com/jokes/random/";
+
 class JokeDisplay extends Component {
   constructor(props) {
     super(props);
-    this.END_POINT = "https://api.icndb.com/jokes/random/";
+    this.END_POINT = proxyUrl + targetUrl;
     this.state = {
       loading: true,
       posts: null
