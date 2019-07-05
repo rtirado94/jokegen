@@ -3,8 +3,7 @@ import React, { Component } from "react";
 class JokeDisplay extends Component {
   constructor(props) {
     super(props);
-    this.END_POINT =
-      "https://api.icndb.com/jokes/random/1http://api.icndb.com/jokes/random/";
+    this.END_POINT = "http://api.icndb.com/jokes/random/";
     this.state = {
       loading: true,
       posts: null
@@ -15,7 +14,7 @@ class JokeDisplay extends Component {
     fetch(this.END_POINT)
       .then(res => res.json())
       .then(data => {
-        this.setState({ posts: data.value[0].joke, loading: false });
+        this.setState({ posts: data.value.joke, loading: false });
         this.replaceFunc();
         this.getRandomImg();
       });
