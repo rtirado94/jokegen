@@ -1,11 +1,7 @@
 {
-  "name": "quotegen",
+  "name": "jokegen",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "11.4.0",
-    "npm": "6.4.1"
-  },
   "dependencies": {
     "express": "^4.17.1",
     "react": "^16.8.6",
